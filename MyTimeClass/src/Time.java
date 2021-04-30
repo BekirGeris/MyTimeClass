@@ -28,6 +28,7 @@ public class Time {
 		second = (gecenZamanMilis / 1000) % 60;
 	}
 	
+	
 	public long getHour() {
 		return hour;
 	}
@@ -37,7 +38,7 @@ public class Time {
 	}
 
 	public long getSecond() {
-		return second;
+		return second; 
 	}
 	
 }
